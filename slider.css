@@ -1,0 +1,49 @@
+body {
+   background-image: url('background.png');
+   background-size: cover;
+  }
+/* .main{
+      width: 100%;
+      border: 2px solid black;
+  } */
+.container {
+
+    display: flex;
+    border: 2px solid black;
+    width: 10%;
+    height: 100px;
+    font-weight: bold;
+    align-items: center;
+                                            /* Centering Data  */
+    justify-content: center;
+    background-color: lightblue;
+    transform: translateX(0%);
+}
+
+
+.container {
+    transition: transform 5s;
+}
+
+#bcontainer {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#btn1{
+    border: 2px solid black;
+    background-color: green;
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#disclaimer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
